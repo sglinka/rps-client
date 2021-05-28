@@ -32,7 +32,6 @@ export default {
       },
       serverMessage (arg) {
           this.messages.push(arg)
-          console.log(arg)
       },
       serverMessages (arg) {
         this.messages = arg
